@@ -1,0 +1,2 @@
+# Only needed for the C backend and its tests. Finite-ring search is standard-library only.
+sympy>=1.12,<2

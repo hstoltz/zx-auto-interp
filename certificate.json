@@ -1,0 +1,135 @@
+{
+  "valid": true,
+  "scope": "the supplied rules, including the registered infinite families",
+  "target": "B",
+  "theory_sha256": "756ef342bdd7144e6634fd155bb272f33592f2ac339b23b3ef2807c9f2bef265",
+  "interpretation": {
+    "ring": "F17",
+    "dimension": 8,
+    "period": 4,
+    "H": [
+      [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      [
+        7,
+        10,
+        7,
+        13,
+        7,
+        12,
+        2,
+        10
+      ],
+      [
+        7,
+        7,
+        10,
+        2,
+        7,
+        13,
+        12,
+        10
+      ],
+      [
+        7,
+        13,
+        2,
+        7,
+        12,
+        10,
+        10,
+        7
+      ],
+      [
+        7,
+        7,
+        7,
+        12,
+        10,
+        2,
+        13,
+        10
+      ],
+      [
+        7,
+        12,
+        13,
+        10,
+        2,
+        7,
+        10,
+        7
+      ],
+      [
+        7,
+        2,
+        12,
+        10,
+        13,
+        10,
+        7,
+        7
+      ],
+      [
+        7,
+        10,
+        10,
+        7,
+        10,
+        7,
+        7,
+        10
+      ]
+    ],
+    "phases": [
+      1,
+      4,
+      4,
+      16,
+      4,
+      16,
+      16,
+      13
+    ]
+  },
+  "finite_checks": {
+    "S3L": true,
+    "S3R": true,
+    "B1": true,
+    "EU": true,
+    "IV": true,
+    "ZO": true,
+    "B": false
+  },
+  "all_arity_lemmas": {
+    "Sg": "green_fusion",
+    "Sr": "red_fusion",
+    "HC": "colour_change"
+  },
+  "structural_guarantee": "symmetric compact Mat_R; all incident-leg permutations and bends",
+  "witness": {
+    "type": [
+      2,
+      2
+    ],
+    "entry": [
+      1,
+      9
+    ],
+    "lhs": 11,
+    "rhs": 0
+  },
+  "search": {
+    "bases_tried": 24,
+    "elapsed_seconds": 0.4,
+    "H_seed_scope": "Walsh, copy-preserving conjugates, signed diagonal, and small Householder templates; not exhaustive"
+  }
+}

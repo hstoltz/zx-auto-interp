@@ -1,0 +1,151 @@
+{
+  "valid": true,
+  "scope": "the supplied rules, including the registered infinite families",
+  "target": "B",
+  "theory_sha256": "e73adfa210ce0e20cdf5c7c0cb57244b8bbb4d8df89a8164274331178cee0f10",
+  "interpretation": {
+    "ring": "F9",
+    "dimension": 4,
+    "period": 1,
+    "ring_definition": {
+      "kind": "polynomial_quotient",
+      "base": "F3",
+      "polynomial": [
+        1,
+        0,
+        1
+      ],
+      "variable": "a",
+      "is_field": true
+    },
+    "H": [
+      [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "phases": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ]
+  },
+  "finite_checks": {
+    "S3L": true,
+    "S3R": true,
+    "Copy": true,
+    "Z0": true,
+    "IV": true,
+    "IV2": true,
+    "B": false
+  },
+  "all_arity_lemmas": {
+    "Sg": "phase_free_green_fusion",
+    "Sr": "phase_free_red_fusion"
+  },
+  "structural_guarantee": "symmetric compact Mat_R; all incident-leg permutations and bends",
+  "witness": {
+    "type": [
+      2,
+      2
+    ],
+    "entry": [
+      1,
+      10
+    ],
+    "lhs": [
+      0,
+      2
+    ],
+    "rhs": [
+      0,
+      0
+    ]
+  },
+  "search": {
+    "bases_tried": 4,
+    "elapsed_seconds": 0.017,
+    "H_seed_scope": "Walsh, copy-preserving conjugates, signed diagonal, and small Householder templates; not exhaustive"
+  }
+}

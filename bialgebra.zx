@@ -1,0 +1,20 @@
+# Integer phases k ∈ Z. No identification k = k+4 is silently imposed.
+# Z(n,m,k) / X(n,m,k): n → m; k defaults to 0; zero arities are allowed.
+# H(n) means the n-fold TENSOR power; H(0) = id(0).
+
+δ := Z(1,0) ∘ X(0,1)
+θ := Z(3,0) ∘ X(0,3)
+
+Sg[p,q,r,s;a,b]: (id(q) ⊗ Z(r+1,s,b)) ∘ (Z(p,q+1,a) ⊗ id(r)) = Z(p+r,q+s,a+b)
+Sr[p,q,r,s;a,b]: (id(q) ⊗ X(r+1,s,b)) ∘ (X(p,q+1,a) ⊗ id(r)) = X(p+r,q+s,a+b)
+HC[n,m;k]: X(n,m,k) = H(m) ∘ Z(n,m,k) ∘ H(n)
+
+S3L: Z(0,2) = cup
+S3R: X(0,2) = cup
+B1: δ ⊗ (Z(1,2) ∘ X(0,1)) = X(0,1) ⊗ X(0,1)
+EU: H = Z(1,1,1) ∘ X(2,1) ∘ (Z(1,1,1) ⊗ Z(0,1,-1))
+IV: Z(0,0) ⊗ θ ⊗ θ = id(0)
+ZO: Z(0,0,2) ⊗ Z(0,1) = Z(0,0,2) ⊗ X(0,1)
+
+B: Z(0,0) ⊗ ((X(2,1) ⊗ X(2,1)) ∘ (id ⊗ swap ⊗ id) ∘ (Z(1,2) ⊗ Z(1,2)))
+   = δ ⊗ (Z(1,2) ∘ X(2,1))

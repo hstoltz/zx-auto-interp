@@ -1,0 +1,8 @@
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
+*.log
+rechecked.json
+theory.json
+periodic_attempt.json
